@@ -175,5 +175,9 @@
 }
 
 @media only screen and (max-device-width: 900px) {
+    .container {
+      display:block;
+      background-image: none;
+    }
   /* .menu { width:600px; } */
   }
