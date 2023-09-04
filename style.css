@@ -174,10 +174,10 @@
   top: 958.52px;
 }
 
-@media only screen and (max-device-width: 900px) {
+@media only screen and (max-device-width: 768px) {
     .container {
       display:block;
       background-image: none;
     }
-  /* .menu { width:600px; } */
+  .menu { width:50px; } 
   }
