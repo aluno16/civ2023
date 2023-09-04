@@ -175,9 +175,18 @@
 }
 
 @media only screen and (max-device-width: 768px) {
-    .container {
+    .desktop-1 {
       display:block;
       background-image: none;
     }
-  .menu { width:50vmax; } 
+
+    .desktop-1_image { width:50vmax; } 
+
+    .desktop-1_box{
+      margin: 2em 2em ;
+
+
+    }
+
+
   }
