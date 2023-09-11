@@ -174,28 +174,8 @@
   top: 958.52px;
 }
 
-@media only screen and (max-device-width: 768px) {
-    .desktop-1 {
-      display:block;
-      background-image: none;
-    }
-
-    .desktop-1_image { width:50vw; } 
-
-    .desktop-1_box{
-      margin: 2em 2em ;
-
-
-    }
-
-    .desktop-1_second{ 
-      margin: 0;
-      text-align: center;
-  
-    }
-
-    .desktop-1_second_img{
-       width: 50vw;
-
-    }
+@media only screen and (max-device-width: 900px) {
+  /* .menu { width:600px; } */
   }
+  
+  
