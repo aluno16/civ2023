@@ -188,5 +188,14 @@
 
     }
 
+    .desktop-1_second{ 
+      margin: 0;
+      text-align: center;
+  
+    }
 
+    .desktop-1_second_img{
+       width: 50vw;
+
+    }
   }
