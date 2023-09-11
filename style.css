@@ -172,10 +172,45 @@
   position: absolute;
   left: 544.24px;
   top: 958.52px;
+} 
+
+@media (max-width: 1000px) {
+  #inicio img {
+      display: none;
+  }
 }
 
-@media only screen and (max-device-width: 900px) {
-  /* .menu { width:600px; } */
+@media (max-width: 800px) {
+  header {
+      padding: 40px 40px 0 40px;
   }
   
+  nav ul li {
+      padding: 0 10px;
+      list-style: none;
+      font-size: 18px; 
+  }
   
+  #inicio {
+      padding: 10px 40px;
+  }
+
+  #inicio div {
+      padding-right: 0px;
+  }
+  
+  #inicio img {
+      display: none;
+  }
+  
+  #sobre {
+      display: flex;
+      flex-direction: column;
+      height: 800px;
+      padding: 40px 0;
+  }
+  
+  #cursos div {
+      display: none;
+  }
+}
